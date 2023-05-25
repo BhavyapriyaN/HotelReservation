@@ -2,4 +2,8 @@ category_encoders==2.6.0
 ipython==7.31.1
 matplotlib==3.5.2
 pandas==1.4.4
+<<<<<<< HEAD
+=======
+scikit_learn==1.0.2
+>>>>>>> d52325896d386c62594321892a1aa178dc8da4f0
 streamlit>=1.21.0
