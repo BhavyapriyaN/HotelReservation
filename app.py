@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import pickle
 import base64
 from category_encoders import WOEEncoder
+from xgboost import XGBClassifier
+from sklearn.preprocessing import OrdinalEncoder, PowerTransformer
 
 with open("HotelImage.jpg", "rb") as image_file:
     encoded_string = base64.b64encode(image_file.read())
