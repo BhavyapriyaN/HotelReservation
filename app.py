@@ -1,3 +1,6 @@
+
+import numpy as np
+import seaborn as sns
 import streamlit as st
 from IPython.display import display, HTML
 import pandas as pd 
@@ -7,6 +10,8 @@ import base64
 from category_encoders import WOEEncoder
 from xgboost import XGBClassifier
 from sklearn.preprocessing import OrdinalEncoder, PowerTransformer
+import warnings
+warnings.filterwarnings('ignore')
 
 with open("HotelImage.jpg", "rb") as image_file:
     encoded_string = base64.b64encode(image_file.read())
