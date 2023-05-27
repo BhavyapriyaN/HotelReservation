@@ -38,7 +38,7 @@ model.close()
 adults = st.number_input('No. of Adults',0,4,step = 1)
 children = st.number_input('No. of children', 0,10,1)
 wnd = st.slider('No. of weekend nights', 0,6)
-wn = st.slider('No. of weekend nights', 0,17)
+wn = st.slider('No. of week nights', 0,17)
 tmp = st.selectbox('Type of Meal Plan', ('Meal Plan 1', 'Meal Plan 2', 'Meal Plan 3', 'Not Selected')) 
 car_parking = st.number_input("Parking required or not", 0,1 , 1)
 room_type = st.selectbox("Type of room type reserved ", ('Room_Type 1', 'Room_Type 2', 'Room_Type 3', 'Room_Type 4',
